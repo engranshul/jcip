@@ -22,4 +22,13 @@ public class UnsafeSequence {
 	public int getValue() {
 		return value;
 	}
+
+	public static void main(String[] args) {
+		UnsafeSequence obj = new UnsafeSequence();
+		System.out.println(obj.getNext());
+		System.out.println(obj.getNext());
+		System.out.println(obj.getNext());
+		System.out.println("*****************");
+		System.out.println(obj.getValue());
+	}
 }
